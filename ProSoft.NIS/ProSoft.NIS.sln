@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{98F61AFB-C44D-4F32-B929-3315025EDC7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebPortal", "WebPortal", "{6F965E5F-D6A8-4A4B-8503-73927BEAA1DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{C66397A5-9B94-447E-9254-60E1B97E87F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logic", "Logic", "{D7908248-D9CA-4184-B990-DB11AABAB5AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contracts", "Contracts", "{82551C07-39EB-430B-8BE0-A2DB5F75D45E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D9B58012-31AD-46A7-907E-1F10A75B6BF4}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		ProSoft.NIS.sln.DotSettings = ProSoft.NIS.sln.DotSettings
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProSoft.NIS.Contracts", "ProSoft.NIS.Contracts\ProSoft.NIS.Contracts.csproj", "{0E4D72AE-E146-4F1B-AADF-2E80A78D9EE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProSoft.NIS.Data.MsSqlServer", "ProSoft.NIS.Data.MsSqlServer\ProSoft.NIS.Data.MsSqlServer.csproj", "{125D741F-054C-4046-8974-5EA0A4796BEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProSoft.NIS.WebApi", "ProSoft.NIS.WebApi\ProSoft.NIS.WebApi.csproj", "{1EEEC1A6-59CB-4C6A-BE88-032231A8876A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E4D72AE-E146-4F1B-AADF-2E80A78D9EE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E4D72AE-E146-4F1B-AADF-2E80A78D9EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E4D72AE-E146-4F1B-AADF-2E80A78D9EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E4D72AE-E146-4F1B-AADF-2E80A78D9EE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{125D741F-054C-4046-8974-5EA0A4796BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{125D741F-054C-4046-8974-5EA0A4796BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{125D741F-054C-4046-8974-5EA0A4796BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{125D741F-054C-4046-8974-5EA0A4796BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EEEC1A6-59CB-4C6A-BE88-032231A8876A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EEEC1A6-59CB-4C6A-BE88-032231A8876A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EEEC1A6-59CB-4C6A-BE88-032231A8876A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EEEC1A6-59CB-4C6A-BE88-032231A8876A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0E4D72AE-E146-4F1B-AADF-2E80A78D9EE1} = {82551C07-39EB-430B-8BE0-A2DB5F75D45E}
+		{125D741F-054C-4046-8974-5EA0A4796BEE} = {98F61AFB-C44D-4F32-B929-3315025EDC7E}
+		{1EEEC1A6-59CB-4C6A-BE88-032231A8876A} = {C66397A5-9B94-447E-9254-60E1B97E87F7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAC294FD-E878-4A63-9945-760C14E4C247}
+	EndGlobalSection
+EndGlobal
